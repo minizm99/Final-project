@@ -1,0 +1,121 @@
+@font-face {
+    font-family: MaruBuri-Regular;
+    src:url(../font/MaruBuri-Regular.otf);
+    font-weight:normal;
+}
+
+@font-face{
+    font-family: FrankRuhlLibre-Regular;
+    src:url(../font/FrankRuhlLibre-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: Spoqa Han Sans Regular;
+    src:url(../font/Spoqa Han Sans Regular.ttf);
+    font-weight: normal;
+}
+
+
+#topmenu {
+    height: 30px;
+    width: 850px;
+}
+
+#topmenu ul li {
+    list-style: none;
+    color: black;
+    background-color: none;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: middle;
+}
+
+#topmenu .menulink {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 13px;
+    font-family: ;
+    padding-top: 40px;
+    
+}
+
+#topmenu .menuimg {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 150px;
+    padding: 0px 0px 0px 0px;
+}
+
+#topMenu .menuLink:hover {
+    color: red;
+    background-color: aquamarine;
+}
+
+body{
+    font-family: MaruBuri-Regular;
+    text-align: center;
+}
+
+p class{
+    font-family: MaruBuri-Regular;
+    font-size: 15px;
+}
+
+.large{
+    font-family: MaruBuri-Regular;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 0.3em;
+    line-height: 150%;
+}
+
+.large_1{
+    font-family: MaruBuri-Regular;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 0.3em;
+    line-height: 150%;
+    font-weight: 900;
+}
+
+.medium{
+    font-family: FrankRuhlLibre-Regular;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+    word-spacing: 0.6em;
+}
+
+.medium_1{
+    font-family: FrankRuhlLibre-Regular;
+    font-size: small;
+    text-align: center;
+    word-spacing: 0.5em;
+    font-weight: 900;
+}
+
+.small{
+    font-family: MaruBuri-Regular;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer{
+    font-family: MaruBuri-Regular;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 10px;
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
+}
