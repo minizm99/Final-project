@@ -20,6 +20,7 @@
 #topmenu {
     height: 30px;
     width: 850px;
+    align-content: center;
 }
 
 #topmenu ul li {
@@ -52,7 +53,7 @@
     padding: 0px 0px 0px 0px;
 }
 
-#topMenu .menuLink:hover {
+#topmenu .menuLink:hover {
     color: red;
     background-color: aquamarine;
 }
@@ -65,47 +66,6 @@ body{
 p class{
     font-family: MaruBuri-Regular;
     font-size: 15px;
-}
-
-.large{
-    font-family: MaruBuri-Regular;
-    font-size: large;
-    text-align: center;
-    letter-spacing: 0.3em;
-    line-height: 150%;
-}
-
-.large_1{
-    font-family: MaruBuri-Regular;
-    font-size: large;
-    text-align: center;
-    letter-spacing: 0.3em;
-    line-height: 150%;
-    font-weight: 900;
-}
-
-.medium{
-    font-family: FrankRuhlLibre-Regular;
-    font-size: x-large;
-    font-weight: 700;
-    text-align: center;
-    word-spacing: 0.6em;
-}
-
-.medium_1{
-    font-family: FrankRuhlLibre-Regular;
-    font-size: small;
-    text-align: center;
-    word-spacing: 0.5em;
-    font-weight: 900;
-}
-
-.small{
-    font-family: MaruBuri-Regular;
-    font-size: small;
-    font-style: italic;
-    text-align: center;
-    text-decoration: underline;
 }
 
 footer{
