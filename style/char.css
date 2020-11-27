@@ -14,7 +14,7 @@
     text-align: middle;
 }
 
-#topmenu .charac {
+#topmenu .menulink {
     text-decoration: none;
     color: black;
     display: block;
@@ -22,9 +22,16 @@
     font-size: 15px;
     font-weight: 13px;
     font-family: ;
-    padding-top: 0px;
+    padding-top: 40px;
+    
 }
 
+#topmenu .menuimg {
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    padding: 0px 0px 0px 0px;
+}
 
 body {
     padding: 0;
