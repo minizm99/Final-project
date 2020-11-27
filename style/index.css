@@ -46,15 +46,9 @@
 
 #topmenu .menuimg {
     text-decoration: none;
-    color: black;
     display: block;
     width: 150px;
     padding: 0px 0px 0px 0px;
-}
-
-#topmenu .menuLink:hover {
-    color: red;
-    background-color: aquamarine;
 }
 
 body{
