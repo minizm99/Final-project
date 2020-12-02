@@ -94,7 +94,7 @@ img {
 }
 
 table {
-    margin: auto;   
+    margin: auto;
 }
 
 .title {
@@ -103,7 +103,7 @@ table {
     text-align: left;
     position: relative;
     top: 30px;
-    left: 30px;
+    left: 50px;
 }
 
 .subtitle {
@@ -114,7 +114,7 @@ table {
     color: cadetblue;
     position: relative;
     top: 30px;
-    left: 30px;
+    left: 50px;
     
 }
 
@@ -128,7 +128,7 @@ table {
     margin: 50px;
     position: relative;
     top: 30px;
-    left: 30px;
+    left: 50px;
 }
 
 .detail {
@@ -140,7 +140,7 @@ table {
     width: 1000px;
     margin: 60px;
     position: relative;
-    left: 370px;
+    left: 390px;
 }
 
 footer{
