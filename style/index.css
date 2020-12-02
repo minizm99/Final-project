@@ -16,58 +16,65 @@
     font-weight: normal;
 }
 
-#topmenu {
-    height: 30px;
-    width: 850px;
-    margin: auto;
+#contents {
+    width: 940px;
+    text-align: left;
+    padding: 5px; 10px;
+    border-top: none;
+    margin: 0 auto;
 }
 
-#topmenu ul li {
+#contents nav {
+    border-top: 20px solid white;
+    border-bottom: 7px solid skyblue;
+    background: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#contents nav ul {
+    overflow: hidden;
     list-style: none;
-    color: black;
-    background-color: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 900px;
+}
+
+#contents nav li {
+    box-sizing: border-box;
     float: left;
-    line-height: 30px;
-    vertical-align: middle;
-    text-align: middle;
+    border-right: 1px solid white;
+    width: 25%;
 }
 
-#topmenu .menulink {
+#contents nav li:last-child {
+    border-right: 0;   
+}
+
+#contents nav a {
     font-family: NotoSansKR-Light;
-    text-decoration: none;
     color: black;
-    display: block;
-    width: 150px;
-    font-size: 15px;
-    font-weight: 13px;
-    font-family: ;
-    padding-top: 40px;
-    
-}
-
-#topmenu .menuimg {
     text-decoration: none;
     display: block;
-    width: 150px;
-    position: relative;
-    padding: 0;
-    margin: auto;
-}
-
-body{
-    font-family: MaruBuri-Regular;
+    padding: 10px 0;
+    width: 100%;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    font-size: 20px;
+    border-radius: 20px 20px 0 0;
 }
 
-p class{
-    font-family: MaruBuri-Regular;
-    font-size: 15px;
+#contents nav a:hover {
+    background: skyblue;
+    color: white;
+}
+
+#contents .current {
+    background: skyblue;
+    color:white;
 }
 
 footer{
-    font-family: MaruBuri-Regular;
+    font-family: NotoSansKR-Light;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -78,30 +85,3 @@ footer{
     text-align: center;
 }
 
-div{
-    display: block;
-    height: 40px;
-    width: 300px;
-    border: none;
-    background: white;
-    margin-right: 10px;
-    margin-left: 90px;
-   
-}
-input{
-    font-size: 16px;
-    width: 225px;
-    padding: 10px;
-    border:0px;
-    outline: none;
-    float: left;
-}
-button{
-    width: 50px;
-    height: 100%;
-    border: 0px;
-    background: lightskyblue;
-    outline: none;
-    float: right;
-    color: black;
-}

@@ -68,9 +68,9 @@
     color: white;
 }
 
-#contents nav .current {
-    background: pink;
-    color: white;
+#contents .current {
+    background: skyblue;
+    color:white;
 }
 
 
