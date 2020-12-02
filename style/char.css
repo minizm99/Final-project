@@ -16,39 +16,61 @@
     font-weight: normal;
 }
 
-#topmenu {
-    height: 30px;
-    width: 850px;
-    align-content: center;
+#contents {
+    width: 940px;
+    text-align: left;
+    padding: 5px; 10px;
+    border-top: none;
+    margin: 0 auto;
 }
 
-#topmenu ul li {
+#contents nav {
+    border-top: 20px solid white;
+    border-bottom: 7px solid skyblue;
+    background: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#contents nav ul {
+    overflow: hidden;
     list-style: none;
-    color: black;
-    background-color: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 900px;
+}
+
+#contents nav li {
+    box-sizing: border-box;
     float: left;
-    line-height: 30px;
-    vertical-align: middle;
-    text-align: middle;
+    border-right: 1px solid white;
+    width: 25%;
 }
 
-#topmenu .menulink {
-    text-decoration: none;
+#contents nav li:last-child {
+    border-right: 0;   
+}
+
+#contents nav a {
+    font-family: NotoSansKR-Light;
     color: black;
-    display: block;
-    width: 150px;
-    font-size: 15px;
-    font-weight: 13px;
-    font-family: ;
-    padding-top: 40px;
-    
-}
-
-#topmenu .menuimg {
     text-decoration: none;
     display: block;
-    width: 150px;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+#contents nav a:hover {
+    background: skyblue;
+    color: white;
+}
+
+#contents .current {
+    background: skyblue;
+    color:white;
 }
 
 body {
@@ -72,8 +94,7 @@ img {
 }
 
 table {
-    margin-left: center;
-    margin-right: center;   
+    margin: auto;   
 }
 
 .title {
