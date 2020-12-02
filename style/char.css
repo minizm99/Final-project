@@ -62,6 +62,15 @@ img {
     margin-right: auto;
 }
 
+.effect {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.effect:hover {
+    transform: scale(1.2);
+}
+
 table {
     margin-left: center;
     margin-right: center;   

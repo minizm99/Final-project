@@ -27,6 +27,13 @@ body {
     margin: 0;
 }
 
+.effect {
+    transform: scale(1);
+}
+
+.effect:hover {
+    transform: scale(1.2);
+}
 .title {
     font-family: NotoSansKR-Bold;
     font-size: 40px;
