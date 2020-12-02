@@ -1,3 +1,21 @@
+@font-face{
+    font-family: NotoSansKR-Bold;
+    src:url(../font/NotoSansKR-Bold.otf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: NotoSansKR-Medium;
+    src:url(../font/NotoSansKR-Medium.otf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: NotoSansKR-Light;
+    src:url(../font/NotoSansKR-Light.otf);
+    font-weight: normal;
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -10,11 +28,13 @@ body {
 }
 
 .title {
+    font-family: NotoSansKR-Bold;
     font-size: 40px;
     text-align: center;   
 }
 
 .story{
+    font-family: NotoSansKR-Medium;
     text-align: center;
     letter-spacing: 0.5px;
     line-height:30px;
@@ -31,18 +51,20 @@ body {
     margin-left: auto;
     margin-right: auto; 
     margin-top: 50px;
+    border-radius: 50px;
 }
 
 .box {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    
 }
 
 #topmenu {
     height: 30px;
     width: 850px;
-    align-content: center;
+    margin: auto;
 }
 
 #topmenu ul li {
@@ -71,5 +93,47 @@ body {
     text-decoration: none;
     display: block;
     width: 150px;
-    padding: 0px 0px 0px 0px;
+    position: relative;
+    padding: 0;
+    margin: auto;
+}
+.carousel {
+    display: block;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: auto;
+}
+
+.carousel li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    animation: slide 12s ease infinite forwards;
+}
+
+.carousel li:nth-child(1){
+    opacity: 1;
+    z-index: 3;
+}
+
+.carousel li:nth-child(2){
+    z-index: 2;
+    animation-delay: 4s;
+}
+
+.carousel li:nth-child(3){
+    z-index: 1;
+    animation-delay: 8s;
+}
+
+@keyframes slide{
+    0%{opacity:1; left:0;}
+    33.33%{opacity:0.5; left:-120%;}
+    34%{opacity:0;}
+    66.66%{left: 0; opacity: 0;}
+    100%{opacity: 1;}
 }

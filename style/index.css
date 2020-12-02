@@ -19,7 +19,7 @@
 #topmenu {
     height: 30px;
     width: 850px;
-    align-content: center;
+    margin: auto;
 }
 
 #topmenu ul li {
@@ -48,7 +48,9 @@
     text-decoration: none;
     display: block;
     width: 150px;
-    padding: 0px 0px 0px 0px;
+    position: relative;
+    padding: 0;
+    margin: auto;
 }
 
 body{
