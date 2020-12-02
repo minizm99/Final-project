@@ -1,18 +1,18 @@
-@font-face {
-    font-family: MaruBuri-Regular;
-    src:url(../font/MaruBuri-Regular.otf);
-    font-weight:normal;
-}
-
 @font-face{
-    font-family: FrankRuhlLibre-Regular;
-    src:url(../font/FrankRuhlLibre-Regular.ttf);
+    font-family: NotoSansKR-Bold;
+    src:url(../font/NotoSansKR-Bold.otf);
     font-weight: normal;
 }
 
 @font-face{
-    font-family: Spoqa Han Sans Regular;
-    src:url(../font/Spoqa Han Sans Regular.ttf);
+    font-family: NotoSansKR-Medium;
+    src:url(../font/NotoSansKR-Medium.otf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: NotoSansKR-Light;
+    src:url(../font/NotoSansKR-Light.otf);
     font-weight: normal;
 }
 
@@ -33,6 +33,7 @@
 }
 
 #topmenu .menulink {
+    font-family: NotoSansKR-Light;
     text-decoration: none;
     color: black;
     display: block;
@@ -78,13 +79,14 @@ footer{
 }
 
 div{
+    display: block;
     height: 40px;
     width: 300px;
     border: none;
     background: white;
-    position: absolute;
-    left: 900px;
-    top: 50px;
+    margin-right: 10px;
+    margin-left: 90px;
+   
 }
 input{
     font-size: 16px;
