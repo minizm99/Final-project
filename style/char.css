@@ -1,3 +1,29 @@
+@font-face{
+    font-family: NotoSansKR-Bold;
+    src:url(../font/NotoSansKR-Bold.otf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: NotoSansKR-Medium;
+    src:url(../font/NotoSansKR-Medium.otf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: NotoSansKR-Light;
+    src:url(../font/NotoSansKR-Light.otf);
+    font-weight: normal;
+}
+
+.large{
+    font-family: MaruBuri-Regular;
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 0.3em;
+    line-height: 150%;
+}
+
 #topmenu {
     height: 30px;
     width: 850px;
@@ -45,28 +71,54 @@ img {
 }
 
 table {
-    margin-left: auto;
-    margin-right: auto;   
+    margin-left: center;
+    margin-right: center;   
 }
 
 .title {
+    font-family: NotoSansKR-Bold;
     font-size: 40px;
-    text-align: left;   
+    text-align: left;
+    position: relative;
+    top: 30px;
+    left: 30px;
 }
 
 .subtitle {
-    font-size: 20px;
+    font-family: NotoSansKR-Medium;
+    font-size: 25px;
     text-align: left;
+    line-height: 20%;
     color: cadetblue;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    
 }
 
 .introduce {
+    font-family: NotoSansKR-Light;
     text-align: left;
     letter-spacing: 0.5px;
     line-height:30px;
     font-size: 20px;
     width: 1000px;
     margin: 50px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.detail {
+    font-family: NotoSansKR-Light;
+    text-align: left;
+    letter-spacing: 0.5px;
+    line-height:30px;
+    font-size: 20px;
+    width: 1000px;
+    margin: 60px;
+    position: relative;
+    left: 370px;
 }
 
 footer{
