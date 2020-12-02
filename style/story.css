@@ -30,17 +30,32 @@ body {
 .title {
     font-family: NotoSansKR-Bold;
     font-size: 40px;
-    text-align: center;   
+    text-align: center;
+    color: skyblue;
+    text-decoration: none;
+    transition: 1s;
 }
 
+.subtitle {
+    font-family: NotoSansKR-Bold;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+hr {
+    width: 20%;
+    height: 3px;
+    background-color: black;
+}
 .story{
-    font-family: NotoSansKR-Medium;
+    font-family: NotoSansKR-Light;
     text-align: center;
     letter-spacing: 0.5px;
-    line-height:30px;
+    line-height:50px;
     font-size: 20px;
     width: 1000px;
-    margin: 50px;
+    margin: 80px;
 }
 
 .container {
