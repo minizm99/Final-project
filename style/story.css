@@ -27,13 +27,6 @@ body {
     margin: 0;
 }
 
-.effect {
-    transform: scale(1);
-}
-
-.effect:hover {
-    transform: scale(1.2);
-}
 .title {
     font-family: NotoSansKR-Bold;
     font-size: 40px;
@@ -68,7 +61,7 @@ hr {
 .container {
     display: table;
     width: 1000px;
-    height: 900px;
+    height: 800px;
     background-color: white;
     margin-left: auto;
     margin-right: auto; 
@@ -80,6 +73,7 @@ hr {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    padding: 40px;
     
 }
 
@@ -158,4 +152,16 @@ hr {
     34%{opacity:0;}
     66.66%{left: 0; opacity: 0;}
     100%{opacity: 1;}
+}
+
+footer{
+    font-family: MaruBuri-Regular;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 10px;
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
 }
