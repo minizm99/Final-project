@@ -167,6 +167,7 @@ hr {
 .footer {
     font-family: NotoSansKR-Light;
     display: block;
+    position:absolute;
     margin: 0 auto;
     text-align: center;
     width:100%;  
