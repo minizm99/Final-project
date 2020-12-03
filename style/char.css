@@ -143,14 +143,13 @@ table {
     left: 390px;
 }
 
-footer{
+.footer {
     font-family: NotoSansKR-Light;
-    width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 0;
-    padding: 10px;
-    background-color: lightskyblue;
-    color: black;
+    display: block;
+    margin: 0 auto;
     text-align: center;
+    width:100%;  
+    padding: 10px 20px;
+    background: skyblue;
+    color: white;
 }

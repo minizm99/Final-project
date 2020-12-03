@@ -88,3 +88,14 @@
     font-family: NotoSansKR-Light;
     text-align: center;
 }
+
+.footer {
+    font-family: NotoSansKR-Light;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width:100%;  
+    padding: 10px 20px;
+    background: skyblue;
+    color: white;
+}
