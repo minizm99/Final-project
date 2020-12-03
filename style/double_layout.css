@@ -1,0 +1,76 @@
+@font-face{
+    font-family: NotoSansKR-Bold;
+    src:url(../font/NotoSansKR-Bold.otf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: NotoSansKR-Medium;
+    src:url(../font/NotoSansKR-Medium.otf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: NotoSansKR-Light;
+    src:url(../font/NotoSansKR-Light.otf);
+    font-weight: normal;
+}
+
+.main_container{
+    overflow: hidden;
+    padding 0 0 30px 0;
+    width: 900px;     
+    margin: 0 auto;    
+}
+
+.sidebar{
+    float:left;
+    margin: 20px 0px 30px 0px;
+    padding: 0px 0 30px 0;
+    width: 200px;
+}
+
+.sidebar ul{
+    padding: 0;
+}
+.sidebar li{ 
+    text-align: left;
+    border-bottom: white 3px solid; 
+    list-style: none;
+    width:80%;
+}
+
+.sidebar li:last-child{
+    border-bottom: white 3px solid;
+}
+
+.sidebar li a{
+    font-family: NotoSansKR-Light;
+    font-size: 20px;
+    display: block;
+    padding:15px 20px;
+    text-decoration: none;
+    color:black;
+}
+
+.sidebar li a:hover{
+    color:white;
+    background: skyblue;
+    border-radius: 0px 20px 20px 0;
+}
+.sidebar li .current{
+    color: white;
+    background: skyblue;
+    border-radius: 0px 20px 20px 0;
+}
+
+.maincol{
+    float: right;
+    margin: 0 20px 0 0;
+    padding: 30px 0 30px 0;
+    width: 550px;
+}
+
+.maincol_container{
+/*    margin-left: 360px;*/
+}

@@ -73,7 +73,25 @@
     color:white;
 }
 
+.main_container {
+    display: table;
+    width: 940px;
+    height: 900px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
 
+.sidebar {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 40px;   
+}
 
 
 
