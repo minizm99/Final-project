@@ -73,9 +73,57 @@
     color:white;
 }
 
+.carousel {
+    display: block;
+    width: 940px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: auto;
+}
+
+.carousel li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    animation: slide 12s ease infinite forwards;
+}
+
+.carousel li:nth-child(1){
+    opacity: 1;
+    z-index: 3;
+    animation-delay: 2s;
+}
+
+.carousel li:nth-child(2){
+    z-index: 2;
+    animation-delay: 8s;
+}
+
+.carousel li:nth-child(3){
+    z-index: 1;
+    animation-delay: 18s;
+}
+
+@keyframes slide{
+    0%{opacity:1; left:0;}
+    33.33%{opacity:0.5; left:-120%;}
+    34%{opacity:0;}
+    66.66%{left: 0; opacity: 0;}
+    100%{opacity: 1;}
+}
+
+table {
+    margin: auto;
+    padding: 60px;
+    border-spacing: 50px;
+}
+
 footer{
     font-family: NotoSansKR-Light;
-    width: 80%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0;
