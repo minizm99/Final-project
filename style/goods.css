@@ -73,7 +73,14 @@
     color:white;
 }
 
-.main_container {
+.sidebar {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 40px;   
+}
+
+.container {
     display: table;
     width: 940px;
     height: 900px;
@@ -85,13 +92,5 @@
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
-
-.sidebar {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    padding: 40px;   
-}
-
 
 
