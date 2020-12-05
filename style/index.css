@@ -15,7 +15,13 @@
     src:url(../font/NotoSansKR-Light.otf);
     font-weight: normal;
 }
-
+html{
+    height: 100%
+}
+body{
+    margin: 0;
+    height: 100%;
+}
 #contents {
     width: 940px;
     text-align: left;
@@ -146,7 +152,7 @@ table {
 .footer {
     font-family: NotoSansKR-Light;
     display: block;
-    position:fixed;
+    position:absolute;
     margin: 0 auto;
     text-align: center;
     width:100%;  
