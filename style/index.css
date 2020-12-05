@@ -146,7 +146,7 @@ table {
 .footer {
     font-family: NotoSansKR-Light;
     display: block;
-    position:absolute;
+    position:fixed;
     margin: 0 auto;
     text-align: center;
     width:100%;  
